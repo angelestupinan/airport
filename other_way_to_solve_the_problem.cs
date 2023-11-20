@@ -53,10 +53,12 @@ namespace AirportAdministrator{
                 case 2:{
                     string cdx = Console.ReadLine();
                     getFlightInfo(cdx);
+                    break;
                 }
                 case 3:{
                    string cdx = Console.ReadLine();
                    removeFlight(cdx); 
+                   break;
                 }
             }
 
